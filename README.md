@@ -8,3 +8,5 @@
 </p>
 
 [Alfred Appearance](https://www.alfredapp.com/extras/theme/KpD7EMuSZ1/)
+[Google Chrome Theme](https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm)
+[Download](https://img.shields.io/chrome-web-store/users/embaoimilojjfdbjancmkfdmiegfbhdm?colorA=001a1f&colorB=4da6a6&style=for-the-badge)
