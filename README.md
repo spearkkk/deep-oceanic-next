@@ -7,6 +7,11 @@
 	<a href="https://github.com/spearkkk/starship-oceanic-next/contributors"><img src="https://img.shields.io/github/contributors/spearkkk/starship-oceanic-next?colorA=001a1f&colorB=5fb3b3&style=for-the-badge"></a>
 </p>
 
-[Alfred Appearance](https://www.alfredapp.com/extras/theme/KpD7EMuSZ1/)
-[Google Chrome Theme](https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm)
-[Download](https://img.shields.io/chrome-web-store/users/embaoimilojjfdbjancmkfdmiegfbhdm?colorA=001a1f&colorB=4da6a6&style=for-the-badge)
+<p align="center">
+	<a href="https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm">
+		<img src="https://img.shields.io/chrome-web-store/users/embaoimilojjfdbjancmkfdmiegfbhdm?style=for-the-badge&logo=googlechrome&logoColor=ffcc66&label=chrome&labelColor=001114&color=ffcc66">
+	</a>
+	<a href="https://www.alfredapp.com/extras/theme/KpD7EMuSZ1/">
+		<img src="https://img.shields.io/badge/appearance-yellow?style=for-the-badge&logo=alfred&logoColor=ffcc66&label=alfred&labelColor=001114&color=ffcc66">
+	</a>
+</p>
