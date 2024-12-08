@@ -1,5 +1,5 @@
 <h3 align="center">
-	<img src="./big_wave.svg" width="100" alt="big_wave"/><br/>
+	<img src="big_wave_circle.svg" width="100" alt="big_wave"/><br/>
 	Deep Oceanic Next Color Theme
 </h3>
 <p align="center">
@@ -32,7 +32,7 @@
 ![image24](./image_24.png)
 
 로고
-![logo](./big_wave.svg)
+![logo](./big_wave_circle.svg)
 
 작업한 결과물
 - [intellij](https://plugins.jetbrains.com/plugin/25272-deep-oceanic-next-theme?noRedirect=true)
