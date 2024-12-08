@@ -3,8 +3,8 @@
 	Deep Oceanic Next Color Theme
 </h3>
 <p align="center">
-	<a href="https://github.com/spearkkk/deep-oceanic-next-starship/stargazers"><img src="https://img.shields.io/github/stars/spearkkk/deep-oceanic-next-starship?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=github&logoColor=f3b863&link=https%3A%2F%2Fgithub.com%2Fspearkkk%2Fdeep-oceanic-next"></a>
-	<a href="https://github.com/spearkkk/starship-oceanic-next/contributors"><img src="https://img.shields.io/github/contributors/spearkkk/starship-oceanic-next?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=github&logoColor=f3b863"></a>
+	<a href="https://github.com/spearkkk/deep-oceanic-next/stargazers"><img src="https://img.shields.io/github/stars/spearkkk/deep-oceanic-next-starship?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=github&logoColor=f3b863&link=https%3A%2F%2Fgithub.com%2Fspearkkk%2Fdeep-oceanic-next"></a>
+	<a href="https://github.com/spearkkk/deep-oceanic-next/contributors"><img src="https://img.shields.io/github/contributors/spearkkk/deep-oceanic-next?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=github&logoColor=f3b863"></a>
 	<a href="https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm">
 		<img src="https://img.shields.io/chrome-web-store/users/embaoimilojjfdbjancmkfdmiegfbhdm?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=googlechrome&logoColor=f3b863&label=chrome">
 	</a>
