@@ -1,21 +1,112 @@
+/* Import TailwindCSS base styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Font-face for custom font */
+@font-face {
+  font-family: 'GowunBatang-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff')
+  format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Add custom rules */
+:root {
+  --dp-ocn-nxt-base-00: #001c1f;
+  --dp-ocn-nxt-base-01: #002931;
+  --dp-ocn-nxt-base-02: #003640;
+  --dp-ocn-nxt-base-03: #004852;
+  --dp-ocn-nxt-base-04: #0093a3;
+  --dp-ocn-nxt-base-05: #d4e1e8;
+  --dp-ocn-nxt-base-06: #e0e9ef;
+  --dp-ocn-nxt-base-07: #f2f7f9;
+  --dp-ocn-nxt-base-08: #d3464d;
+  --dp-ocn-nxt-base-09: #e37552;
+  --dp-ocn-nxt-base-0a: #f3b863;
+  --dp-ocn-nxt-base-0b: #63b784;
+  --dp-ocn-nxt-base-0c: #4fb7ae;
+  --dp-ocn-nxt-base-0d: #568ccf;
+  --dp-ocn-nxt-base-0e: #8b66d6;
+  --dp-ocn-nxt-base-0f: #d0658e;
+  --dp-ocn-nxt-base-10: #1f2628;
+  --dp-ocn-nxt-base-11: #2a2f30;
+  --dp-ocn-nxt-base-12: #ff6670;
+  --dp-ocn-nxt-base-13: #ffe08a;
+  --dp-ocn-nxt-base-14: #72e1a6;
+  --dp-ocn-nxt-base-15: #4de3e3;
+  --dp-ocn-nxt-base-16: #5caeff;
+  --dp-ocn-nxt-base-17: #b788ff;
+
+  /* Convenience Variables */
+  --dp-ocn-nxt-background: var(--dp-ocn-nxt-base-00);
+  --dp-ocn-nxt-foreground: var(--dp-ocn-nxt-base-05);
+  --dp-ocn-nxt-yellow: var(--dp-ocn-nxt-base-0a);
+  --dp-ocn-nxt-cyan: var(--dp-ocn-nxt-base-0c);
+  --dp-ocn-nxt-blue: var(--dp-ocn-nxt-base-0d);
+  --dp-ocn-nxt-red: var(--dp-ocn-nxt-base-08);
+  --dp-ocn-nxt-magenta: var(--dp-ocn-nxt-base-0e);
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'GowunBatang-Regular', serif;
+  color: var(--dp-ocn-nxt-foreground);
+  background-color: var(--dp-ocn-nxt-background);
+}
+
+a {
+  color: var(--dp-ocn-nxt-cyan);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--dp-ocn-nxt-blue);
+}
+
+button {
+  background-color: var(--dp-ocn-nxt-base-0c);
+  color: var(--dp-ocn-nxt-base-07);
+  border: 2px solid var(--dp-ocn-nxt-base-0a);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--dp-ocn-nxt-base-0d);
+  border-color: var(--dp-ocn-nxt-yellow);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--dp-ocn-nxt-base-05);
+}
+
+code {
+  background-color: var(--dp-ocn-nxt-base-01);
+  color: var(--dp-ocn-nxt-base-0a);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+
+blockquote {
+  border-left: 4px solid var(--dp-ocn-nxt-base-04);
+  padding-left: 1rem;
+  color: var(--dp-ocn-nxt-base-06);
+  font-style: italic;
+}
+
+input, textarea {
+  background-color: var(--dp-ocn-nxt-base-01);
+  color: var(--dp-ocn-nxt-base-05);
+  border: 1px solid var(--dp-ocn-nxt-base-02);
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--dp-ocn-nxt-base-0a);
 }
