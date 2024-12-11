@@ -6,8 +6,7 @@
 /* Font-face for custom font */
 @font-face {
   font-family: 'GowunBatang-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff')
-  format('woff');
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -50,9 +49,26 @@
 }
 
 body {
+  min-height: 200vh;
   font-family: 'GowunBatang-Regular', serif;
   color: var(--dp-ocn-nxt-foreground);
-  background-color: var(--dp-ocn-nxt-background);
+  background: rgba(0, 0, 0, 0.2) url('/jeremy-bishop-1braZySlEKA-unsplash.jpg') no-repeat center center fixed;
+  background-blend-mode: darken;
+  background-size: cover;
+  transition: background 5s ease;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+body.dimmed {
+  background: rgba(0, 0, 0, 0.7) url('/jeremy-bishop-1braZySlEKA-unsplash.jpg') no-repeat center center fixed;
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+html, body, #__next {
+  height: 100%;
 }
 
 a {
@@ -109,4 +125,28 @@ input, textarea {
 input:focus, textarea:focus {
   outline: none;
   border-color: var(--dp-ocn-nxt-base-0a);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+}
+
+.top-right-link {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--dp-ocn-nxt-cyan);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
