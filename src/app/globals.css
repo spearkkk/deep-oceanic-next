@@ -52,7 +52,7 @@ body {
   min-height: 200vh;
   font-family: 'GowunBatang-Regular', serif;
   color: var(--dp-ocn-nxt-foreground);
-  background: rgba(0, 0, 0, 0.2) url('/jeremy-bishop-1braZySlEKA-unsplash.jpg') no-repeat center center fixed;
+  background: rgba(0, 0, 0, 0.3) url('/jeremy-bishop-1braZySlEKA-unsplash.jpg') no-repeat center center fixed;
   background-blend-mode: darken;
   background-size: cover;
   transition: background 5s ease;
@@ -62,7 +62,7 @@ body {
 }
 
 body.dimmed {
-  background: rgba(0, 0, 0, 0.7) url('/jeremy-bishop-1braZySlEKA-unsplash.jpg') no-repeat center center fixed;
+  background: rgba(0, 0, 0, 0.8) url('/jeremy-bishop-1braZySlEKA-unsplash.jpg') no-repeat center center fixed;
   background-blend-mode: darken;
   background-size: cover;
 }
@@ -72,13 +72,13 @@ html, body, #__next {
 }
 
 a {
-  color: var(--dp-ocn-nxt-cyan);
+  color: var(--dp-ocn-nxt-foreground);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: var(--dp-ocn-nxt-blue);
+  color: var(--dp-ocn-nxt-cyan);
 }
 
 button {
@@ -97,7 +97,7 @@ button:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--dp-ocn-nxt-base-05);
+  color: var(--dp-ocn-nxt-foreground);
 }
 
 code {
@@ -146,7 +146,5 @@ input:focus, textarea:focus {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: var(--dp-ocn-nxt-cyan);
-  text-decoration: none;
   transition: color 0.2s ease;
 }
