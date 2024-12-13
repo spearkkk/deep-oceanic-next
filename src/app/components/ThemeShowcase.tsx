@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { RxExternalLink } from "react-icons/rx";
 
 const themes = [
     {
@@ -8,6 +9,7 @@ const themes = [
         description:
             "Bring the deep ocean's tranquility to your terminal with the Deep Oceanic Next iTerm2 theme.",
         image: "/screenshots/screenshot_iTerm2_01.png",
+        link: "https://raw.githubusercontent.com/spearkkk/deep-oceanic-next/master/themes/deep-oceanic-next.itermcolors",
     },
     {
         id: 2,
@@ -15,6 +17,7 @@ const themes = [
         description:
             "Code with clarity using the Deep Oceanic Next theme for IntelliJ, PyCharm, and other IDEs.",
         image: "/screenshots/screenshot_IntelliJ_01.jpg",
+        link: "https://plugins.jetbrains.com/plugin/25272-deep-oceanic-next-theme?noRedirect=true",
     },
     {
         id: 3,
@@ -22,6 +25,7 @@ const themes = [
         description:
             "Enhance your browsing experience with the Deep Oceanic Next Chrome theme.",
         image: "/screenshots/screenshot_Chrome_01.jpg",
+        link: "https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm",
     },
     {
         id: 4,
@@ -29,6 +33,7 @@ const themes = [
         description:
             "Simplify your workflow with the Alfred theme inspired by the Deep Oceanic Next palette.",
         image: "/screenshots/screenshot_Alfred_01.jpg",
+        link: "https://www.alfredapp.com/extras/theme/jM31MRnWNH/",
     },
 ];
 
@@ -47,17 +52,25 @@ const ThemeShowcase: React.FC = () => {
                         <Image
                             width={800}
                             height={600}
-                            style={{ width: '100%', height: 'auto' }}
+                            style={{ width: "100%", height: "auto" }}
                             src={theme.image}
                             alt={`${theme.name} Screenshot`}
                             className="rounded-lg shadow-md bg-dp-ocn-nxt-grey-50"
                         />
                     </div>
 
-                    {/* Description and Button */}
+                    {/* Description */}
                     <div className="md:w-1/2 text-center md:text-left space-y-4">
-                        <h2 className="text-lg md:text-xl font-bold text-dp-ocn-nxt-base-07">
+                        <h2 className="text-lg md:text-xl font-bold text-dp-ocn-nxt-base-07 flex items-baseline">
                             {theme.name}
+                            <a
+                                href={theme.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="ml-2 text-xs text-dp-ocn-nxt-cyan-500 hover:text-dp-ocn-nxt-cyan-900 transition-colors"
+                            >
+                                <RxExternalLink />
+                            </a>
                         </h2>
                         <p className="text-dp-ocn-nxt-base-05">{theme.description}</p>
                     </div>

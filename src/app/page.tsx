@@ -89,17 +89,13 @@ export default function Home() {
                         <ThemeShowcase/>
                     </div>
                     <div className="w-full max-w-sm md:max-w-2xl mt-8 mb-4 md:mt-16 md:mb-8">
-                        <div className="flex flex-wrap justify-center gap-4 mt-8">
+                        <div className="flex flex-wrap justify-end gap-4 mt-8">
                             <Button
-                                text="Download on GitHub"
-                                background="dp-ocn-nxt-base-00"
-                                foreground="dp-ocn-nxt-base-0a"
+                                text="View on GitHub"
                                 onClick={handleGitHubClick}
                             />
                             <Button
-                                text="Buy Me a Zero Sugar Pepsi"
-                                background="dp-ocn-nxt-base-00"
-                                foreground="dp-ocn-nxt-base-0a"
+                                text="Buy me a pepsi"
                                 onClick={handleBuyCoffeeClick}
                             />
                         </div>

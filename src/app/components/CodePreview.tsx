@@ -42,7 +42,7 @@ const exampleCode = `object DeepOceanicNext {
 }`;
 
 const CodePreview = () => (
-    <div className="bg-dp-ocn-nxt-base-00 rounded-md border border-dp-ocn-nxt-base-0a">
+    <div className="bg-dp-ocn-nxt-grey-50 rounded-md p-4">
         {/* OSX Window Title Bar */}
         <div className="flex items-center justify-start pb-2 px-2 pt-3 bg-dp-ocn-nxt-base-01 rounded-t-md border-b border-dp-ocn-nxt-base-02">
             {/* Close, Minimize, Maximize Buttons */}
