@@ -8,5 +8,12 @@ The Deep Oceanic Next color theme was born from this paradox. It’s a palette i
 This theme isn’t just about colors; it’s about a journey. A reminder that even if we can’t dive into the deep blue ourselves, we can bring a piece of it into our world—into our screens, our workspaces, and our creative expressions.
 
 So, have you ever wondered what it’s like to dive into the unknown? To explore the depths that so few have seen? Maybe, together with this theme, you can take that step into your own deep ocean?
-    
 
+---
+
+# Themes
+- [iTerm2](https://raw.githubusercontent.com/spearkkk/deep-oceanic-next/master/themes/deep-oceanic-next.itermcolors)
+- [starship](https://github.com/spearkkk/deep-oceanic-next-starship)
+- [IntelliJ IDEA](https://plugins.jetbrains.com/plugin/25272-deep-oceanic-next-theme?noRedirect=true)
+- [Chrome Theme](https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm)
+- [Alfred Theme](https://www.alfredapp.com/extras/theme/jM31MRnWNH/)
