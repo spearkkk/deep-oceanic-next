@@ -2,18 +2,31 @@
 
 import React, {useEffect} from 'react';
 import ColorPalette from "@/app/components/ColorPalette";
+import CodePreview from "@/app/components/CodePreview";
+import ThemeShowcase from "@/app/components/ThemeShowcase";
+import Button from "@/app/components/Button";
 
 export default function Home() {
     useEffect(() => {
+        let lastScrollTop = 0;
+
         const handleScroll = () => {
             const scrollTop = window.scrollY;
             const body = document.body;
-            if (scrollTop > 100) {
-                body.classList.add('dimmed');
-            } else {
-                body.classList.remove('dimmed');
+            if (scrollTop > 400 && scrollTop > lastScrollTop) {
+                // Scrolling down: apply dim effect with a slow transition
+                body.classList.add("dimmed");
+                body.style.transition = "background 8s ease";
+            } else if (scrollTop <= 400 || scrollTop < lastScrollTop) {
+                // Scrolling up: remove dim effect with a fast transition
+                body.classList.remove("dimmed");
+                body.style.transition = "background 4s ease";
             }
+
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
         };
+
+        handleScroll();
 
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
@@ -31,6 +44,14 @@ export default function Home() {
     So, have you ever wondered what it’s like to dive into the unknown? To explore the depths that so few have seen? Maybe, together with this theme, you can take that step into your own deep ocean?
     `
 
+    const handleGitHubClick = () => {
+        window.open("https://github.com/spearkkk/deep-oceanic-next", "_blank");
+    };
+
+    const handleBuyCoffeeClick = () => {
+        window.open("https://buymeacoffee.com/spearkkk", "_blank");
+    };
+
     return (
         <div className="flex flex-col min-h-screen relative">
             <span className="top-right-link">
@@ -39,22 +60,51 @@ export default function Home() {
             </a>
             </span>
             <main className="flex-grow flex flex-col justify-center items-center p-4">
-                <div className="w-full max-w-2xl flex flex-col justify-end items-center min-h-screen pb-4 md:pb-16">
-                    <h3 className="text-xl md:text-2xl font-bold mb-4 text-center">Have you been in the deep ocean
-                        before?</h3>
-                </div>
-                <div className="w-full max-w-2xl">
-                    <p className="whitespace-pre-line">
-                        {introduction}
-                    </p>
-                </div>
+                <section>
+                    <div className="w-full max-w-sm md:max-w-2xl flex flex-col justify-end items-center min-h-screen pb-4 md:pb-16">
+                        <h3 className="text-xl md:text-2xl font-bold mb-4 text-center">Have you been in the deep ocean
+                            before?</h3>
+                    </div>
+                    <div className="w-full max-w-sm md:max-w-2xl">
+                        <p className="whitespace-pre-line md:text-lg">
+                            {introduction}
+                        </p>
+                    </div>
+                </section>
                 <hr className="w-full border-t-4 border-dp-ocn-nxt-base-00 mt-16"/>
-                <div className="w-full max-w-2xl mt-16 mb-8 md:mt-32 md:mb-16">
-                    <h1 className="text-2xl md:text-4xl text-center text-dp-ocn-nxt-base-04 font-black">
-                        Deep Oceanic Next Color Theme
-                    </h1>
-                </div>
-                <ColorPalette />
+                <section>
+                    <div className="w-full max-w-sm md:max-w-2xl mt-16 mb-8 md:mt-32 md:mb-16">
+                        <h1 className="text-2xl md:text-4xl text-center text-dp-ocn-nxt-base-07 font-black">
+                            Deep Oceanic Next Color Theme
+                        </h1>
+                    </div>
+                    <ColorPalette/>
+                </section>
+                <hr className="w-full border-t-4 border-dp-ocn-nxt-base-00 mt-16"/>
+                <section>
+                    <div className="w-full max-w-sm md:max-w-2xl mt-16 mb-8 md:mt-32 md:mb-16">
+                        <CodePreview/>
+                    </div>
+                    <div className="w-full max-w-sm md:max-w-2xl mt-8 mb-4 md:mt-16 md:mb-8">
+                        <ThemeShowcase/>
+                    </div>
+                    <div className="w-full max-w-sm md:max-w-2xl mt-8 mb-4 md:mt-16 md:mb-8">
+                        <div className="flex flex-wrap justify-center gap-4 mt-8">
+                            <Button
+                                text="Download on GitHub"
+                                background="dp-ocn-nxt-base-00"
+                                foreground="dp-ocn-nxt-base-0a"
+                                onClick={handleGitHubClick}
+                            />
+                            <Button
+                                text="Buy Me a Zero Sugar Pepsi"
+                                background="dp-ocn-nxt-base-00"
+                                foreground="dp-ocn-nxt-base-0a"
+                                onClick={handleBuyCoffeeClick}
+                            />
+                        </div>
+                    </div>
+                </section>
             </main>
         </div>
     );
