@@ -81,16 +81,6 @@ a:hover {
   color: var(--dp-ocn-nxt-cyan);
 }
 
-button {
-  background-color: var(--dp-ocn-nxt-base-01);
-  border-color: var(--dp-ocn-nxt-base-0a);
-  color: var(--dp-ocn-nxt-base-0a);
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-weight: bold;
-  transition: all 0.2s ease;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color: var(--dp-ocn-nxt-foreground);
 }
