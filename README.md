@@ -74,14 +74,14 @@ So, have you ever wondered what it’s like to dive into the unknown? To explore
 
 ---
 
-# 🏳️‍🌈Various Themes with Deep Oceanic Next Colors
+# 🏳️‍🌈 Various Themes with Deep Oceanic Next Colors
 - [iTerm2](https://raw.githubusercontent.com/spearkkk/deep-oceanic-next/master/themes/deep-oceanic-next.itermcolors)
 - [starship](https://github.com/spearkkk/deep-oceanic-next-starship)
 - [IntelliJ IDEA](https://plugins.jetbrains.com/plugin/25272-deep-oceanic-next-theme?noRedirect=true)
 - [Chrome Theme](https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm)
 - [Alfred Theme](https://www.alfredapp.com/extras/theme/jM31MRnWNH/)
 
-# ❣️Thanks to...
+# ❣️ Thanks to...
 - [Tinted Theming](https://github.com/tinted-theming/home)
 - [Chat GPT](https://chatgpt.com/)
 - [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
