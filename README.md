@@ -12,6 +12,9 @@
 	<a href="https://www.alfredapp.com/extras/theme/KpD7EMuSZ1/">
 		<img src="https://img.shields.io/badge/appearance-yellow?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=alfred&logoColor=f3b863&label=alfred">
 	</a>
+    <a href="https://plugins.jetbrains.com/plugin/25272-deep-oceanic-next-theme">
+		<img src="https://img.shields.io/jetbrains/plugin/d/25272?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=alfred&logoColor=f3b863&label=alfred">
+	</a>
 </p>
 
 # 🌊 Deep Oceanic Next 
