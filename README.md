@@ -1,4 +1,20 @@
-# Deep Oceanic Next
+<h3 align="center">
+	<img src="https://raw.githubusercontent.com/spearkkk/deep-oceanic-next/5f801ccb676e35ddcc49d8fdf3e7ca6441c5c57e/big_wave_rectangle.svg" width="100" alt="big_wave"/><br/>
+	<img src="https://raw.githubusercontent.com/spearkkk/deep-oceanic-next/5f801ccb676e35ddcc49d8fdf3e7ca6441c5c57e/big_wave_rectangle.svg" height="30" width="0px"/>
+	Deep Oceanic Next Color Theme
+</h3>
+<p align="center">
+	<a href="https://github.com/spearkkk/deep-oceanic-next/stargazers"><img src="https://img.shields.io/github/stars/spearkkk/deep-oceanic-next?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=github&logoColor=f3b863&link=https%3A%2F%2Fgithub.com%2Fspearkkk%2Fdeep-oceanic-next"></a>
+	<a href="https://github.com/spearkkk/deep-oceanic-next/contributors"><img src="https://img.shields.io/github/contributors/spearkkk/deep-oceanic-next?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=github&logoColor=f3b863"></a>
+	<a href="https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm">
+		<img src="https://img.shields.io/chrome-web-store/users/embaoimilojjfdbjancmkfdmiegfbhdm?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=googlechrome&logoColor=f3b863&label=chrome">
+	</a>
+	<a href="https://www.alfredapp.com/extras/theme/KpD7EMuSZ1/">
+		<img src="https://img.shields.io/badge/appearance-yellow?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=alfred&logoColor=f3b863&label=alfred">
+	</a>
+</p>
+
+# 🌊 Deep Oceanic Next 
 It’s a place where light bends and dances, where the colors shift and deepen in ways you can only imagine. For most of us, the deep ocean is a mystery—vast, quiet, and endlessly captivating. It’s a place we rarely touch, yet it feels like it touches us.
 
 For years, I’ve been both fascinated and terrified by the ocean. I can’t swim—not even in water as shallow as my height. The fear of being swept away, of sinking, is real. But so is the wonder. The deep ocean, to me, is like a dream: unattainable yet vivid in my imagination.
@@ -11,7 +27,7 @@ So, have you ever wondered what it’s like to dive into the unknown? To explore
 
 ---
 
-# Deep Oceanic Next Theme - Full Palette
+# 🎨 Deep Oceanic Next Color Theme - Palette
 
 <p align="center">
   <img src="./public/palette.png" alt="Deep Oceanic Next Palette" width="400" />
@@ -58,9 +74,19 @@ So, have you ever wondered what it’s like to dive into the unknown? To explore
 
 ---
 
-# Themes
+# 🏳️‍🌈Various Themes with Deep Oceanic Next Colors
 - [iTerm2](https://raw.githubusercontent.com/spearkkk/deep-oceanic-next/master/themes/deep-oceanic-next.itermcolors)
 - [starship](https://github.com/spearkkk/deep-oceanic-next-starship)
 - [IntelliJ IDEA](https://plugins.jetbrains.com/plugin/25272-deep-oceanic-next-theme?noRedirect=true)
 - [Chrome Theme](https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm)
 - [Alfred Theme](https://www.alfredapp.com/extras/theme/jM31MRnWNH/)
+
+# ❣️Thanks to...
+- [Tinted Theming](https://github.com/tinted-theming/home)
+- [Chat GPT](https://chatgpt.com/)
+- [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
+- [Deep Ocean Theme](https://plugins.jetbrains.com/plugin/16729-deep-ocean-theme)
+- [Photo by Jeremy Bishop on Unsplash](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%88%98%EC%A4%91-%EC%82%AC%EC%A7%84-1braZySlEKA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+- [Intellij Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- [Chrome Theme Studio](https://github.com/JamsheedMistri/chrometheme.studio)
+- [Starship](https://starship.rs/config/)
