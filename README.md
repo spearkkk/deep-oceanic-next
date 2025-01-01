@@ -13,50 +13,48 @@ So, have you ever wondered what it’s like to dive into the unknown? To explore
 
 # Deep Oceanic Next Theme - Full Palette
 
-![Deep Oceanic Next Palette](./palette.png)
-
 <p align="center">
-  <img src="./palette.png" alt="Deep Oceanic Next Palette" width="400" />
+  <img src="./public/palette.png" alt="Deep Oceanic Next Palette" width="400" />
 </p>
 
 ## Background and Foreground Colors
 
-| Color Box                                                                                                     | Name | Hex Code | Description |
-|---------------------------------------------------------------------------------------------------------------|------|----------|-------------|
-| <span style="display:inline-block;width:30px;height:30px;background-color:#001c1f;border-radius:50%;"></span> | Base00 | `#001c1f` | Primary Background |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#002931;border-radius:50%;"></span> | Base01 | `#002931` | Secondary Background |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#003640;border-radius:50%;"></span> | Base02 | `#003640` | Tertiary Background |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#004852;border-radius:50%;"></span> | Base03 | `#004852` | Low Contrast Text Background |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#0093a3;border-radius:50%;"></span> | Base04 | `#0093a3` | Dark Foreground |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#d4e1e8;border-radius:50%;"></span> | Base05 | `#d4e1e8` | Foreground |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#e0e9ef;border-radius:50%;"></span> | Base06 | `#e0e9ef` | High Foreground |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#f2f7f9;border-radius:50%;"></span> | Base07 | `#f2f7f9` | Bright Foreground |
+| Color Box | Name  | Hex Code  | Description                  |
+|-----------|-------|-----------|------------------------------|
+| ![Base00](./public/colors/base00.png) | Base00 | `#001c1f` | Primary Background          |
+| ![Base01](./public/colors/base01.png) | Base01 | `#002931` | Secondary Background        |
+| ![Base02](./public/colors/base02.png) | Base02 | `#003640` | Tertiary Background         |
+| ![Base03](./public/colors/base03.png) | Base03 | `#004852` | Low Contrast Text Background |
+| ![Base04](./public/colors/base04.png) | Base04 | `#0093a3` | Dark Foreground             |
+| ![Base05](./public/colors/base05.png) | Base05 | `#d4e1e8` | Foreground                  |
+| ![Base06](./public/colors/base06.png) | Base06 | `#e0e9ef` | High Foreground             |
+| ![Base07](./public/colors/base07.png) | Base07 | `#f2f7f9` | Bright Foreground           |
 
 ## Syntax Highlighting Colors
 
-| Color Box                                                                                                     | Name | Hex Code | Description |
-|---------------------------------------------------------------------------------------------------------------|------|----------|-------------|
-| <span style="display:inline-block;width:30px;height:30px;background-color:#d3464d;border-radius:50%;"></span> | Base08 | `#d3464d` | Warm Red - Variables, Errors |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#e37552;border-radius:50%;"></span> | Base09 | `#e37552` | Warm Orange - Constants |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#f3b863;border-radius:50%;"></span> | Base0A | `#f3b863` | Muted Gold - Classes, Functions |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#63b784;border-radius:50%;"></span> | Base0B | `#63b784` | Fresh Green - Strings |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#4fb7ae;border-radius:50%;"></span> | Base0C | `#4fb7ae` | Aqua Cyan - Support, Regex |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#568ccf;border-radius:50%;"></span> | Base0D | `#568ccf` | Oceanic Blue - Keywords |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#8b66d6;border-radius:50%;"></span> | Base0E | `#8b66d6` | Vibrant Purple - Markup |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#d0658e;border-radius:50%;"></span> | Base0F | `#d0658e` | Warm Pink - Deprecated |
+| Color Box | Name  | Hex Code  | Description                  |
+|-----------|-------|-----------|------------------------------|
+| ![Base08](./public/colors/base08.png) | Base08 | `#d3464d` | Warm Red - Variables, Errors |
+| ![Base09](./public/colors/base09.png) | Base09 | `#e37552` | Warm Orange - Constants      |
+| ![Base0A](./public/colors/base0A.png) | Base0A | `#f3b863` | Muted Gold - Classes, Functions |
+| ![Base0B](./public/colors/base0B.png) | Base0B | `#63b784` | Fresh Green - Strings        |
+| ![Base0C](./public/colors/base0C.png) | Base0C | `#4fb7ae` | Aqua Cyan - Support, Regex   |
+| ![Base0D](./public/colors/base0D.png) | Base0D | `#568ccf` | Oceanic Blue - Keywords      |
+| ![Base0E](./public/colors/base0E.png) | Base0E | `#8b66d6` | Vibrant Purple - Markup      |
+| ![Base0F](./public/colors/base0F.png) | Base0F | `#d0658e` | Warm Pink - Deprecated       |
 
 ## Additional Colors
 
-| Color Box                                                                                                     | Name | Hex Code | Description |
-|---------------------------------------------------------------------------------------------------------------|------|----------|-------------|
-| <span style="display:inline-block;width:30px;height:30px;background-color:#1f2628;border-radius:50%;"></span> | Base10 | `#1f2628` | Darker Black for Highlights |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#2a2f30;border-radius:50%;"></span> | Base11 | `#2a2f30` | Darkest Black for Shadows |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#ff6670;border-radius:50%;"></span> | Base12 | `#ff6670` | Bright Red - Warnings |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#ffe08a;border-radius:50%;"></span> | Base13 | `#ffe08a` | Bright Yellow - Highlights |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#72e1a6;border-radius:50%;"></span> | Base14 | `#72e1a6` | Bright Green - Success Indicators |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#4de3e3;border-radius:50%;"></span> | Base15 | `#4de3e3` | Bright Cyan - Links |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#5caeff;border-radius:50%;"></span> | Base16 | `#5caeff` | Bright Blue - Active States |
-| <span style="display:inline-block;width:30px;height:30px;background-color:#b788ff;border-radius:50%;"></span> | Base17 | `#b788ff` | Bright Purple - Accents |
+| Color Box | Name  | Hex Code  | Description                  |
+|-----------|-------|-----------|------------------------------|
+| ![Base10](./public/colors/base10.png) | Base10 | `#1f2628` | Darker Black for Highlights  |
+| ![Base11](./public/colors/base11.png) | Base11 | `#2a2f30` | Darkest Black for Shadows    |
+| ![Base12](./public/colors/base12.png) | Base12 | `#ff6670` | Bright Red - Warnings        |
+| ![Base13](./public/colors/base13.png) | Base13 | `#ffe08a` | Bright Yellow - Highlights   |
+| ![Base14](./public/colors/base14.png) | Base14 | `#72e1a6` | Bright Green - Success Indicators |
+| ![Base15](./public/colors/base15.png) | Base15 | `#4de3e3` | Bright Cyan - Links          |
+| ![Base16](./public/colors/base16.png) | Base16 | `#5caeff` | Bright Blue - Active States  |
+| ![Base17](./public/colors/base17.png) | Base17 | `#b788ff` | Bright Purple - Accents      |
 
 ---
 
