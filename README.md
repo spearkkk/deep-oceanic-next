@@ -1,7 +1,9 @@
+<h1 align="center">
+    <a href="https://deep-oceanic-next.spearkkk.dev/">Deep Oceanic Next Color Theme</a>
+</h1>
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/spearkkk/deep-oceanic-next/5f801ccb676e35ddcc49d8fdf3e7ca6441c5c57e/big_wave_rectangle.svg" width="100" alt="big_wave"/><br/>
 	<img src="https://raw.githubusercontent.com/spearkkk/deep-oceanic-next/5f801ccb676e35ddcc49d8fdf3e7ca6441c5c57e/big_wave_rectangle.svg" height="30" width="0px"/>
-	Deep Oceanic Next Color Theme
 </h3>
 <p align="center">
 	<a href="https://github.com/spearkkk/deep-oceanic-next/stargazers"><img src="https://img.shields.io/github/stars/spearkkk/deep-oceanic-next?colorA=001c1f&colorB=f3b863&style=for-the-badge&logo=github&logoColor=f3b863&link=https%3A%2F%2Fgithub.com%2Fspearkkk%2Fdeep-oceanic-next"></a>
