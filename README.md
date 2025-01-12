@@ -27,11 +27,6 @@ So, have you ever wondered what it’s like to dive into the unknown? To explore
 ---
 
 # 🎨 Deep Oceanic Next Color Theme - Palette
-
-<p align="center">
-  <img src="./public/palette.png" alt="Deep Oceanic Next Palette" width="400" />
-</p>
-
 ## Background and Foreground Colors
 
 | Color Box | Name  | Hex Code  | Description                  |
@@ -73,19 +68,27 @@ So, have you ever wondered what it’s like to dive into the unknown? To explore
 
 ---
 
-# 🏳️‍🌈 Various Themes with Deep Oceanic Next Colors
+
+
+# ❣️ Deep Oceanic Next Theme: Inspirations
+
+The creation of the **Deep Oceanic Next Theme** has been an incredible journey of inspiration and collaboration. This theme is deeply influenced by two stunning color schemes: the [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme) and the [Deep Ocean Theme](https://plugins.jetbrains.com/plugin/16729-deep-ocean-theme). These projects sparked the vision of capturing the tranquility and mystery of the deep ocean within a single palette.
+
+Throughout the process, I relied heavily on [Chat GPT](https://chatgpt.com/) for brainstorming and iterative refinement. This collaboration allowed me to conceptualize and finalize the theme across multiple iterations.
+
+After settling on the color palette, I leveraged tools like [Tinted Theming](https://github.com/tinted-theming/home) to ensure the colors were consistent and beautifully applied across various platforms. Using the following repositories, I integrated the palette into multiple environments:
+
+- [Intellij Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template) for JetBrains IDEs.
+- [Chrome Theme Studio](https://github.com/JamsheedMistri/chrometheme.studio) for creating a customized Chrome theme.
+- [Starship](https://starship.rs/config/) for terminal theming.
+
+To visually represent the theme’s essence, I selected a breathtaking image by [Jeremy Bishop on Unsplash](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%88%98%EC%A4%91-%EC%82%AC%EC%A7%84-1braZySlEKA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash). The image perfectly embodies the serenity and depth that inspired this theme.
+
+Creating **Deep Oceanic Next Theme** has been a rewarding endeavor. It’s more than just a set of colors; it’s a celebration of creativity and a tribute to the beauty of the unexplored deep.
+
+### 🏳️‍🌈 Various Themes with Deep Oceanic Next Colors
 - [iTerm2](https://raw.githubusercontent.com/spearkkk/deep-oceanic-next/master/themes/deep-oceanic-next.itermcolors)
 - [starship](https://github.com/spearkkk/deep-oceanic-next-starship)
 - [IntelliJ IDEA](https://plugins.jetbrains.com/plugin/25272-deep-oceanic-next-theme?noRedirect=true)
 - [Chrome Theme](https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm)
 - [Alfred Theme](https://www.alfredapp.com/extras/theme/jM31MRnWNH/)
-
-# ❣️ Thanks to...
-- [Tinted Theming](https://github.com/tinted-theming/home)
-- [Chat GPT](https://chatgpt.com/)
-- [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme)
-- [Deep Ocean Theme](https://plugins.jetbrains.com/plugin/16729-deep-ocean-theme)
-- [Photo by Jeremy Bishop on Unsplash](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%88%98%EC%A4%91-%EC%82%AC%EC%A7%84-1braZySlEKA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-- [Intellij Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
-- [Chrome Theme Studio](https://github.com/JamsheedMistri/chrometheme.studio)
-- [Starship](https://starship.rs/config/)
