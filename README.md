@@ -70,7 +70,7 @@ So, have you ever wondered what it’s like to dive into the unknown? To explore
 
 
 
-# ❣️ Deep Oceanic Next Theme: Inspirations
+# ❣️ Deep Oceanic Next Color Theme: Inspirations
 
 The creation of the **Deep Oceanic Next Theme** has been an incredible journey of inspiration and collaboration. This theme is deeply influenced by two stunning color schemes: the [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme) and the [Deep Ocean Theme](https://plugins.jetbrains.com/plugin/16729-deep-ocean-theme). These projects sparked the vision of capturing the tranquility and mystery of the deep ocean within a single palette.
 
