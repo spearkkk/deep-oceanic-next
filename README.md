@@ -24,10 +24,12 @@ This theme isn’t just about colors; it’s about a journey. A reminder that ev
 
 So, have you ever wondered what it’s like to dive into the unknown? To explore the depths that so few have seen? Maybe, together with this theme, you can take that step into your own deep ocean?
 
+Feel free to see the [Deep Oceanic Next Color Theme](https://deep-oceanic-next.spearkkk.dev/).
+
 ---
 
-# 🎨 Deep Oceanic Next Color Theme - Palette
-## Background and Foreground Colors
+## 🎨 Color Palette
+### Background and Foreground Colors
 
 | Color Box | Name  | Hex Code  | Description                  |
 |-----------|-------|-----------|------------------------------|
@@ -40,7 +42,7 @@ So, have you ever wondered what it’s like to dive into the unknown? To explore
 | ![Base06](./public/colors/base06.png) | Base06 | `#e0e9ef` | High Foreground             |
 | ![Base07](./public/colors/base07.png) | Base07 | `#f2f7f9` | Bright Foreground           |
 
-## Syntax Highlighting Colors
+### Syntax Highlighting Colors
 
 | Color Box | Name  | Hex Code  | Description                  |
 |-----------|-------|-----------|------------------------------|
@@ -53,7 +55,7 @@ So, have you ever wondered what it’s like to dive into the unknown? To explore
 | ![Base0E](./public/colors/base0E.png) | Base0E | `#8b66d6` | Vibrant Purple - Markup      |
 | ![Base0F](./public/colors/base0F.png) | Base0F | `#d0658e` | Warm Pink - Deprecated       |
 
-## Additional Colors
+### Additional Colors
 
 | Color Box | Name  | Hex Code  | Description                  |
 |-----------|-------|-----------|------------------------------|
@@ -68,9 +70,7 @@ So, have you ever wondered what it’s like to dive into the unknown? To explore
 
 ---
 
-
-
-# ❣️ Deep Oceanic Next Color Theme: Inspirations
+## ❣️ Inspirations
 
 The creation of the **Deep Oceanic Next Theme** has been an incredible journey of inspiration and collaboration. This theme is deeply influenced by two stunning color schemes: the [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme) and the [Deep Ocean Theme](https://plugins.jetbrains.com/plugin/16729-deep-ocean-theme). These projects sparked the vision of capturing the tranquility and mystery of the deep ocean within a single palette.
 
@@ -92,3 +92,4 @@ Creating **Deep Oceanic Next Theme** has been a rewarding endeavor. It’s more 
 - [IntelliJ IDEA](https://plugins.jetbrains.com/plugin/25272-deep-oceanic-next-theme?noRedirect=true)
 - [Chrome Theme](https://chromewebstore.google.com/detail/deep-oceanic-next-chrome/embaoimilojjfdbjancmkfdmiegfbhdm)
 - [Alfred Theme](https://www.alfredapp.com/extras/theme/jM31MRnWNH/)
+- [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=TintedTheming.base16-tinted-themes): Find `base16-deep-oceanic-next`

@@ -35,6 +35,14 @@ const themes = [
         image: "/screenshots/screenshot_Alfred_01.jpg",
         link: "https://www.alfredapp.com/extras/theme/jM31MRnWNH/",
     },
+    {
+        id: 5,
+        name: "Visual Studio Code Theme",
+        description:
+            "Code with clarity using the Deep Oceanic Next theme for Visual Studio Code.",
+        image: "/screenshots/screenshot_vscode_01.png",
+        link: "https://marketplace.visualstudio.com/items?itemName=TintedTheming.base16-tinted-themes",
+    },
 ];
 
 const ThemeShowcase: React.FC = () => {
