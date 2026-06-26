@@ -1,0 +1,218 @@
+<svg width="1600" height="1240" viewBox="0 0 1600 1240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1240" fill="#00191D"/>
+  <rect x="44" y="44" width="1512" height="1152" rx="20" fill="#002D36" stroke="#007789" stroke-width="2"/>
+
+  <text x="84" y="112" fill="#FFFFFF" font-family="Arial" font-size="44" font-weight="700">Deep Oceanic Next Vivid Signal semantic palette</text>
+  <text x="84" y="154" fill="#D8F3F5" font-family="Arial" font-size="21">A brighter candidate: cleaner base colors, vivid semantic roles, and stronger app-specific diff/highlight states.</text>
+
+  <g transform="translate(84 205)">
+    <rect width="456" height="330" rx="14" fill="#00191D" stroke="#007789" stroke-width="2"/>
+    <text x="28" y="48" fill="#FFFFFF" font-family="Arial" font-size="27" font-weight="700">Surfaces and text</text>
+    <text x="28" y="78" fill="#A7DCE4" font-family="Arial" font-size="16">Useful for panes, cards, overlays, and disabled text.</text>
+
+    <rect x="28" y="108" width="120" height="72" rx="8" fill="#00191D" stroke="#005663"/>
+    <text x="44" y="139" fill="#FFFFFF" font-family="Arial" font-size="15">background</text>
+    <text x="44" y="163" fill="#A7DCE4" font-family="Arial" font-size="14">#00191D</text>
+
+    <rect x="168" y="108" width="120" height="72" rx="8" fill="#002D36" stroke="#005663"/>
+    <text x="184" y="139" fill="#FFFFFF" font-family="Arial" font-size="15">alt</text>
+    <text x="184" y="163" fill="#A7DCE4" font-family="Arial" font-size="14">#002D36</text>
+
+    <rect x="308" y="108" width="120" height="72" rx="8" fill="#073B45" stroke="#007789"/>
+    <text x="324" y="139" fill="#FFFFFF" font-family="Arial" font-size="15">elevated</text>
+    <text x="324" y="163" fill="#A7DCE4" font-family="Arial" font-size="14">#073B45</text>
+
+    <rect x="28" y="205" width="400" height="78" rx="8" fill="#073B45" stroke="#00B8C7"/>
+    <text x="48" y="235" fill="#FFFFFF" font-family="Arial" font-size="20" font-weight="700">Primary foreground</text>
+    <text x="48" y="258" fill="#D8F3F5" font-family="Arial" font-size="17">Secondary foreground for body text</text>
+    <text x="48" y="280" fill="#74B6C1" font-family="Arial" font-size="16">Dim text for quiet metadata</text>
+  </g>
+
+  <g transform="translate(572 205)">
+    <rect width="944" height="330" rx="14" fill="#00191D" stroke="#00F5FF" stroke-width="2"/>
+    <text x="28" y="48" fill="#FFFFFF" font-family="Arial" font-size="27" font-weight="700">Diff roles</text>
+    <text x="28" y="78" fill="#A7DCE4" font-family="Arial" font-size="16">Separate foreground, background, border, and gutter colors for editors that support richer diff styling.</text>
+
+    <g transform="translate(28 108)">
+      <rect width="880" height="42" fill="#5B1F31" stroke="#FF335B" stroke-width="2"/>
+      <rect width="10" height="42" fill="#D82B4D"/>
+      <text x="26" y="27" fill="#FF4D6D" font-family="Arial" font-size="18" font-weight="700">- delete_fg #FF4D6D</text>
+      <text x="270" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">delete_bg #5B1F31</text>
+      <text x="500" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">delete_border #FF335B</text>
+      <text x="735" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">gutter #D82B4D</text>
+    </g>
+
+    <g transform="translate(28 160)">
+      <rect width="880" height="42" fill="#004D39" stroke="#00E08A" stroke-width="2"/>
+      <rect width="10" height="42" fill="#00B871"/>
+      <text x="26" y="27" fill="#00FF9C" font-family="Arial" font-size="18" font-weight="700">+ add_fg #00FF9C</text>
+      <text x="270" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">add_bg #004D39</text>
+      <text x="500" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">add_border #00E08A</text>
+      <text x="735" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">gutter #00B871</text>
+    </g>
+
+    <g transform="translate(28 212)">
+      <rect width="880" height="42" fill="#5A5018" stroke="#FFF13A" stroke-width="2"/>
+      <rect width="10" height="42" fill="#D7C515"/>
+      <text x="26" y="27" fill="#FFF44F" font-family="Arial" font-size="18" font-weight="700">~ change_fg #FFF44F</text>
+      <text x="270" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">change_bg #5A5018</text>
+      <text x="500" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">change_border #FFF13A</text>
+      <text x="735" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">gutter #D7C515</text>
+    </g>
+
+    <g transform="translate(28 264)">
+      <rect width="880" height="42" fill="#502545" stroke="#FF5FBD" stroke-width="2"/>
+      <text x="26" y="27" fill="#FF7FCB" font-family="Arial" font-size="18" font-weight="700">! conflict_fg #FF7FCB</text>
+      <text x="270" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">conflict_bg #502545</text>
+      <text x="500" y="27" fill="#D8F3F5" font-family="Arial" font-size="16">conflict_border #FF5FBD</text>
+    </g>
+  </g>
+
+  <g transform="translate(84 570)">
+    <rect width="456" height="274" rx="14" fill="#00191D" stroke="#007789" stroke-width="2"/>
+    <text x="28" y="48" fill="#FFFFFF" font-family="Arial" font-size="27" font-weight="700">Diagnostics</text>
+
+    <rect x="28" y="78" width="400" height="38" rx="8" fill="#511B2A" stroke="#FF335B"/>
+    <text x="48" y="103" fill="#FF4D6D" font-family="Arial" font-size="17" font-weight="700">error</text>
+    <text x="142" y="103" fill="#D8F3F5" font-family="Arial" font-size="15">#FF4D6D on #511B2A</text>
+
+    <rect x="28" y="128" width="400" height="38" rx="8" fill="#4F4211" stroke="#FFF13A"/>
+    <text x="48" y="153" fill="#FFF44F" font-family="Arial" font-size="17" font-weight="700">warning</text>
+    <text x="142" y="153" fill="#D8F3F5" font-family="Arial" font-size="15">#FFF44F on #4F4211</text>
+
+    <rect x="28" y="178" width="400" height="38" rx="8" fill="#0A4D59" stroke="#00E4F0"/>
+    <text x="48" y="203" fill="#00F5FF" font-family="Arial" font-size="17" font-weight="700">info</text>
+    <text x="142" y="203" fill="#D8F3F5" font-family="Arial" font-size="15">#00F5FF on #0A4D59</text>
+
+    <rect x="28" y="228" width="400" height="38" rx="8" fill="#064B36" stroke="#00E08A"/>
+    <text x="48" y="253" fill="#00FF9C" font-family="Arial" font-size="17" font-weight="700">success</text>
+    <text x="142" y="253" fill="#D8F3F5" font-family="Arial" font-size="15">#00FF9C on #064B36</text>
+  </g>
+
+  <g transform="translate(572 570)">
+    <rect width="456" height="274" rx="14" fill="#00191D" stroke="#007789" stroke-width="2"/>
+    <text x="28" y="48" fill="#FFFFFF" font-family="Arial" font-size="27" font-weight="700">Highlights</text>
+
+    <rect x="28" y="82" width="180" height="42" rx="8" fill="#007789"/>
+    <text x="46" y="108" fill="#FFFFFF" font-family="Arial" font-size="16">selection</text>
+    <rect x="228" y="82" width="180" height="42" rx="8" fill="#00424F"/>
+    <text x="246" y="108" fill="#D8F3F5" font-family="Arial" font-size="16">inactive selection</text>
+
+    <rect x="28" y="138" width="180" height="42" rx="8" fill="#7A6418"/>
+    <text x="46" y="164" fill="#FFF44F" font-family="Arial" font-size="16" font-weight="700">search</text>
+    <rect x="228" y="138" width="180" height="42" rx="8" fill="#A3841A"/>
+    <text x="246" y="164" fill="#FFF44F" font-family="Arial" font-size="16" font-weight="700">active search</text>
+
+    <rect x="28" y="194" width="180" height="42" rx="8" fill="#005663"/>
+    <text x="46" y="220" fill="#D8F3F5" font-family="Arial" font-size="16">word match</text>
+    <rect x="228" y="194" width="180" height="42" rx="8" fill="#002D36" stroke="#007789"/>
+    <text x="246" y="220" fill="#D8F3F5" font-family="Arial" font-size="16">current line</text>
+  </g>
+
+  <g transform="translate(1060 570)">
+    <rect width="456" height="274" rx="14" fill="#00191D" stroke="#007789" stroke-width="2"/>
+    <text x="28" y="48" fill="#FFFFFF" font-family="Arial" font-size="27" font-weight="700">Borders and accents</text>
+
+    <rect x="28" y="82" width="180" height="54" rx="8" fill="#073B45" stroke="#007789" stroke-width="2"/>
+    <text x="46" y="115" fill="#D8F3F5" font-family="Arial" font-size="16">default border</text>
+
+    <rect x="228" y="82" width="180" height="54" rx="8" fill="#073B45" stroke="#00F5FF" stroke-width="3"/>
+    <text x="246" y="115" fill="#00F5FF" font-family="Arial" font-size="16" font-weight="700">focus border</text>
+
+    <rect x="28" y="158" width="180" height="54" rx="8" fill="#073B45" stroke="#FFF44F" stroke-width="3"/>
+    <text x="46" y="191" fill="#FFF44F" font-family="Arial" font-size="16" font-weight="700">accent strong</text>
+
+    <rect x="228" y="158" width="180" height="54" rx="8" fill="#073B45" stroke="#D966FF" stroke-width="3"/>
+    <text x="246" y="191" fill="#D966FF" font-family="Arial" font-size="16" font-weight="700">accent tertiary</text>
+  </g>
+
+  <g transform="translate(84 880)">
+    <rect width="456" height="236" rx="14" fill="#00191D" stroke="#007789" stroke-width="2"/>
+    <text x="28" y="48" fill="#FFFFFF" font-family="Arial" font-size="27" font-weight="700">Git states</text>
+
+    <rect x="28" y="78" width="120" height="42" rx="8" fill="#004D39" stroke="#00E08A"/>
+    <text x="48" y="104" fill="#00FF9C" font-family="Arial" font-size="16" font-weight="700">added</text>
+    <rect x="168" y="78" width="120" height="42" rx="8" fill="#5A5018" stroke="#FFF13A"/>
+    <text x="185" y="104" fill="#FFF44F" font-family="Arial" font-size="16" font-weight="700">modified</text>
+    <rect x="308" y="78" width="120" height="42" rx="8" fill="#5B1F31" stroke="#FF335B"/>
+    <text x="329" y="104" fill="#FF4D6D" font-family="Arial" font-size="16" font-weight="700">deleted</text>
+
+    <rect x="28" y="142" width="120" height="42" rx="8" fill="#0A4D59" stroke="#00E4F0"/>
+    <text x="45" y="168" fill="#00F5FF" font-family="Arial" font-size="16" font-weight="700">renamed</text>
+    <rect x="168" y="142" width="120" height="42" rx="8" fill="#5A3A13" stroke="#FFC061"/>
+    <text x="184" y="168" fill="#FFC061" font-family="Arial" font-size="16" font-weight="700">untracked</text>
+    <rect x="308" y="142" width="120" height="42" rx="8" fill="#00424F" stroke="#74B6C1"/>
+    <text x="329" y="168" fill="#74B6C1" font-family="Arial" font-size="16" font-weight="700">ignored</text>
+  </g>
+
+  <g transform="translate(572 880)">
+    <rect width="944" height="236" rx="14" fill="#00191D" stroke="#007789" stroke-width="2"/>
+    <text x="28" y="48" fill="#FFFFFF" font-family="Arial" font-size="27" font-weight="700">Terminal ANSI</text>
+
+    <g transform="translate(28 78)">
+      <rect width="96" height="44" rx="8" fill="#00191D" stroke="#007789"/>
+      <text x="16" y="29" fill="#D8F3F5" font-family="Arial" font-size="15">black</text>
+    </g>
+    <g transform="translate(136 78)">
+      <rect width="96" height="44" rx="8" fill="#FF4D6D"/>
+      <text x="24" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">red</text>
+    </g>
+    <g transform="translate(244 78)">
+      <rect width="96" height="44" rx="8" fill="#00FF9C"/>
+      <text x="18" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">green</text>
+    </g>
+    <g transform="translate(352 78)">
+      <rect width="96" height="44" rx="8" fill="#FFF44F"/>
+      <text x="18" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">yellow</text>
+    </g>
+    <g transform="translate(460 78)">
+      <rect width="96" height="44" rx="8" fill="#33B5FF"/>
+      <text x="24" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">blue</text>
+    </g>
+    <g transform="translate(568 78)">
+      <rect width="96" height="44" rx="8" fill="#D966FF"/>
+      <text x="12" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">magenta</text>
+    </g>
+    <g transform="translate(676 78)">
+      <rect width="96" height="44" rx="8" fill="#00F5FF"/>
+      <text x="23" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">cyan</text>
+    </g>
+    <g transform="translate(784 78)">
+      <rect width="96" height="44" rx="8" fill="#D8F3F5"/>
+      <text x="24" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">white</text>
+    </g>
+
+    <g transform="translate(28 142)">
+      <rect width="96" height="44" rx="8" fill="#007789"/>
+      <text x="23" y="29" fill="#FFFFFF" font-family="Arial" font-size="15">br blk</text>
+    </g>
+    <g transform="translate(136 142)">
+      <rect width="96" height="44" rx="8" fill="#FF7890"/>
+      <text x="22" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">br red</text>
+    </g>
+    <g transform="translate(244 142)">
+      <rect width="96" height="44" rx="8" fill="#5CFFB8"/>
+      <text x="14" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">br green</text>
+    </g>
+    <g transform="translate(352 142)">
+      <rect width="96" height="44" rx="8" fill="#FFF87A"/>
+      <text x="14" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">br yellow</text>
+    </g>
+    <g transform="translate(460 142)">
+      <rect width="96" height="44" rx="8" fill="#7DCCFF"/>
+      <text x="20" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">br blue</text>
+    </g>
+    <g transform="translate(568 142)">
+      <rect width="96" height="44" rx="8" fill="#E0A8FF"/>
+      <text x="7" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">br magenta</text>
+    </g>
+    <g transform="translate(676 142)">
+      <rect width="96" height="44" rx="8" fill="#59FBFF"/>
+      <text x="19" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">br cyan</text>
+    </g>
+    <g transform="translate(784 142)">
+      <rect width="96" height="44" rx="8" fill="#FFFFFF"/>
+      <text x="20" y="29" fill="#00191D" font-family="Arial" font-size="15" font-weight="700">br white</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,135 @@
+<svg width="1400" height="980" viewBox="0 0 1400 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="980" fill="#001C1F"/>
+  <rect x="40" y="40" width="1320" height="900" rx="18" fill="#002931" stroke="#0B5A64" stroke-width="2"/>
+
+  <text x="80" y="105" fill="#F2F7F9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="42" font-weight="800">
+    Deep Oceanic Next diff visibility preview
+  </text>
+  <text x="80" y="145" fill="#D4E1E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20">
+    Current palette vs proposed bioluminescent semantic colors for git diff and syntax contrast
+  </text>
+
+  <g transform="translate(80 190)">
+    <rect width="600" height="690" rx="14" fill="#001C1F" stroke="#004852" stroke-width="2"/>
+    <text x="32" y="55" fill="#F2F7F9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="800">Current</text>
+    <text x="32" y="88" fill="#D4E1E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">Good mood, but delete red can disappear in dense diffs.</text>
+
+    <g transform="translate(32 125)">
+      <rect width="120" height="86" rx="8" fill="#D3464D"/>
+      <text x="14" y="32" fill="#001C1F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="800">base08</text>
+      <text x="14" y="60" fill="#001C1F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">#D3464D</text>
+      <text x="0" y="115" fill="#D3464D" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">delete/error</text>
+    </g>
+    <g transform="translate(172 125)">
+      <rect width="120" height="86" rx="8" fill="#F3B863"/>
+      <text x="14" y="32" fill="#001C1F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="800">base0A</text>
+      <text x="14" y="60" fill="#001C1F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">#F3B863</text>
+      <text x="0" y="115" fill="#F3B863" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">changed</text>
+    </g>
+    <g transform="translate(312 125)">
+      <rect width="120" height="86" rx="8" fill="#63B784"/>
+      <text x="14" y="32" fill="#001C1F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="800">base0B</text>
+      <text x="14" y="60" fill="#001C1F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">#63B784</text>
+      <text x="0" y="115" fill="#63B784" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">add/string</text>
+    </g>
+    <g transform="translate(452 125)">
+      <rect width="120" height="86" rx="8" fill="#4FB7AE"/>
+      <text x="14" y="32" fill="#001C1F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="800">base0C</text>
+      <text x="14" y="60" fill="#001C1F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">#4FB7AE</text>
+      <text x="0" y="115" fill="#4FB7AE" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">cyan</text>
+    </g>
+
+    <g transform="translate(32 275)">
+      <rect width="536" height="310" rx="10" fill="#002931" stroke="#003640"/>
+      <rect x="0" y="0" width="536" height="42" rx="10" fill="#003640"/>
+      <text x="18" y="27" fill="#D4E1E8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">src/app/theme.ts</text>
+
+      <rect x="0" y="68" width="536" height="36" fill="#D3464D" fill-opacity="0.18"/>
+      <text x="18" y="92" fill="#D3464D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">- const deleteColor = "#D3464D";</text>
+
+      <rect x="0" y="112" width="536" height="36" fill="#63B784" fill-opacity="0.16"/>
+      <text x="18" y="136" fill="#63B784" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">+ const addColor = "#63B784";</text>
+
+      <rect x="0" y="156" width="536" height="36" fill="#F3B863" fill-opacity="0.13"/>
+      <text x="18" y="180" fill="#F3B863" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">~ const changeColor = "#F3B863";</text>
+
+      <text x="18" y="236" fill="#568CCF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">if</text>
+      <text x="46" y="236" fill="#D4E1E8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18"> (theme.</text>
+      <text x="132" y="236" fill="#D3464D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">diff</text>
+      <text x="177" y="236" fill="#D4E1E8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">) return </text>
+      <text x="270" y="236" fill="#63B784" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">"ocean"</text>
+      <text x="354" y="236" fill="#D4E1E8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">;</text>
+
+      <text x="18" y="278" fill="#0093A3" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15">Contrast on base00: red 4.01, green 7.28, yellow 9.99</text>
+    </g>
+
+    <g transform="translate(32 620)">
+      <text x="0" y="0" fill="#D4E1E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700">Risk</text>
+      <text x="0" y="34" fill="#D4E1E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">
+        Red sits near the readability floor, so dense delete blocks can feel muted.
+      </text>
+    </g>
+  </g>
+
+  <g transform="translate(720 190)">
+    <rect width="600" height="690" rx="14" fill="#00191D" stroke="#00F5FF" stroke-width="2"/>
+    <text x="32" y="55" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="800">Vivid Signal proposed</text>
+    <text x="32" y="88" fill="#D8F3F5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">Brighter base colors with cleaner, more luminous diff states.</text>
+
+    <g transform="translate(32 125)">
+      <rect width="120" height="86" rx="8" fill="#FF4D6D"/>
+      <text x="14" y="32" fill="#00191D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="800">base08</text>
+      <text x="14" y="60" fill="#00191D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">#FF4D6D</text>
+      <text x="0" y="115" fill="#FF4D6D" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">delete/error</text>
+    </g>
+    <g transform="translate(172 125)">
+      <rect width="120" height="86" rx="8" fill="#FFF44F"/>
+      <text x="14" y="32" fill="#00191D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="800">base0A</text>
+      <text x="14" y="60" fill="#00191D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">#FFF44F</text>
+      <text x="0" y="115" fill="#FFF44F" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">changed</text>
+    </g>
+    <g transform="translate(312 125)">
+      <rect width="120" height="86" rx="8" fill="#00FF9C"/>
+      <text x="14" y="32" fill="#00191D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="800">base0B</text>
+      <text x="14" y="60" fill="#00191D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">#00FF9C</text>
+      <text x="0" y="115" fill="#00FF9C" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">add/string</text>
+    </g>
+    <g transform="translate(452 125)">
+      <rect width="120" height="86" rx="8" fill="#00F5FF"/>
+      <text x="14" y="32" fill="#00191D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="800">base0C</text>
+      <text x="14" y="60" fill="#00191D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">#00F5FF</text>
+      <text x="0" y="115" fill="#00F5FF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">cyan</text>
+    </g>
+
+    <g transform="translate(32 275)">
+      <rect width="536" height="310" rx="10" fill="#002D36" stroke="#00424F"/>
+      <rect x="0" y="0" width="536" height="42" rx="10" fill="#00424F"/>
+      <text x="18" y="27" fill="#D8F3F5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">src/app/theme.ts</text>
+
+      <rect x="0" y="68" width="536" height="36" fill="#5B1F31"/>
+      <text x="18" y="92" fill="#FF4D6D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">- const deleteColor = "#FF4D6D";</text>
+
+      <rect x="0" y="112" width="536" height="36" fill="#004D39"/>
+      <text x="18" y="136" fill="#00FF9C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">+ const addColor = "#00FF9C";</text>
+
+      <rect x="0" y="156" width="536" height="36" fill="#5A5018"/>
+      <text x="18" y="180" fill="#FFF44F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">~ const changeColor = "#FFF44F";</text>
+
+      <text x="18" y="236" fill="#33B5FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">if</text>
+      <text x="46" y="236" fill="#D8F3F5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18"> (theme.</text>
+      <text x="132" y="236" fill="#FF4D6D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">diff</text>
+      <text x="177" y="236" fill="#D8F3F5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">) return </text>
+      <text x="270" y="236" fill="#00FF9C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">"ocean"</text>
+      <text x="354" y="236" fill="#D8F3F5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">;</text>
+
+      <text x="18" y="278" fill="#00F5FF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15">Contrast on base00: red 5.65, green 13.64, yellow 15.82</text>
+    </g>
+
+    <g transform="translate(32 620)">
+      <text x="0" y="0" fill="#D8F3F5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700">Benefit</text>
+      <text x="0" y="34" fill="#D8F3F5" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">
+        Diff colors are intentionally vivid for fast scanning in terminals and editors.
+      </text>
+    </g>
+  </g>
+</svg>
