@@ -3,15 +3,15 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 
 const deepOceanicNextTheme = {
     'code[class*="language-"]': {
-        color: '#d4e1e8', // base05
-        background: '#001c1f', // base00
+        color: '#d8f3f5', // base05
+        background: '#00191d', // base00
         fontFamily: 'monospace',
         fontSize: '1em',
         lineHeight: '1.5',
     },
     'pre[class*="language-"]': {
-        color: '#d4e1e8', // base05
-        background: '#001c1f', // base00
+        color: '#d8f3f5', // base05
+        background: '#00191d', // base00
         fontFamily: 'monospace',
         fontSize: '1em',
         lineHeight: '1.5',
@@ -19,15 +19,15 @@ const deepOceanicNextTheme = {
         borderRadius: '8px',
         overflow: 'auto',
     },
-    comment: { color: '#004852' }, // base03
-    keyword: { color: '#568ccf' }, // base0D
-    string: { color: '#63b784' }, // base0B
-    number: { color: '#f3b863' }, // base0A
-    function: { color: '#8b66d6' }, // base0E
-    variable: { color: '#d3464d' }, // base08
-    constant: { color: '#e37552' }, // base09
-    operator: { color: '#4fb7ae' }, // base0C
-    tag: { color: '#b788ff' }, // base17
+    comment: { color: '#006170' }, // base03
+    keyword: { color: '#33b5ff' }, // base0D
+    string: { color: '#00ff9c' }, // base0B
+    number: { color: '#fff44f' }, // base0A
+    function: { color: '#d966ff' }, // base0E
+    variable: { color: '#ff4d6d' }, // base08
+    constant: { color: '#ffc061' }, // base09
+    operator: { color: '#00f5ff' }, // base0C
+    tag: { color: '#e0a8ff' }, // base17
 };
 
 const exampleCode = `object DeepOceanicNext {

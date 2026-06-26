@@ -5,16 +5,16 @@
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_2_);}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#f2f7f9;} /* Base07 for Sharper White */
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#ffffff;} /* Base07 for Sharper White */
 </style>
 	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="4.4067" y1="299.7882" x2="507.5933" y2="212.2118">
-	<stop  offset="0" style="stop-color:#001c1f"/> <!-- Base00 -->
-		<stop  offset="1" style="stop-color:#003640"/> <!-- Base02 -->
+	<stop  offset="0" style="stop-color:#00191d"/> <!-- Base00 -->
+		<stop  offset="1" style="stop-color:#00424f"/> <!-- Base02 -->
 </linearGradient>
 	<circle class="st0" cx="256" cy="256" r="255.3"/>
 	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="135.4172" y1="496.4995" x2="427.3467" y2="204.57">
-	<stop  offset="0" style="stop-color:#1f2628"/> <!-- Base10 -->
-		<stop  offset="1" style="stop-color:#4fb7ae"/> <!-- Base0C -->
+	<stop  offset="0" style="stop-color:#001014"/> <!-- Base10 -->
+		<stop  offset="1" style="stop-color:#00f5ff"/> <!-- Base0C -->
 </linearGradient>
 	<path class="st2" d="M373.4,378c13.9,28,34.5,49.9,57.7,63.8c5.6-5.3,10.9-10.8,16-16.5c-22.7-11.2-43.1-30.7-56.4-56.6
 	c-27.7-54.1-13.7-115.5,31.2-137.9c10.6,18,2.1,41.5-15.3,41.5c68.8,44,120.9-120-58-124.2c-103.7-2.5-174.1,70.7-219.7,124.1
