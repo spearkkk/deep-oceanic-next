@@ -3,38 +3,38 @@
     "manifest_version": 3,
     "name": "Deep Oceanic Next Chrome Theme",
     "description": "Experience the serene depths of the Deep Ocean with this refreshed color theme.",
-    "version": "3.2",
+    "version": "4.2",
     "author": "spearkkk",
     "theme": {
         "colors": {
-            "frame": [0, 72, 82],
+            "frame": [0, 66, 79],
 
-            "tab_text": [255, 224, 138],
-            "toolbar": [0, 41, 49],
-            "toolbar_button_icon": [255, 224, 138],
-            "omnibox_text": [242, 247, 249],
-            "omnibox_background": [0, 72, 82],
-            "bookmark_text": [242, 247, 249],
+            "tab_text": [255, 248, 122],
+            "toolbar": [0, 45, 54],
+            "toolbar_button_icon": [255, 248, 122],
+            "omnibox_text": [234, 255, 251],
+            "omnibox_background": [0, 45, 54],
+            "bookmark_text": [216, 243, 245],
 
 
-            "ntp_background": [0, 28, 31],
-            "ntp_text": [255, 224, 138],
-            "ntp_link": [255, 224, 138],
+            "ntp_background": [0, 25, 29],
+            "ntp_text": [216, 243, 245],
+            "ntp_link": [125, 204, 255],
 
-            "background_tab": [0, 72, 82],
-            "tab_background_text": [0, 147, 163],
+            "background_tab": [0, 45, 54],
+            "tab_background_text": [216, 243, 245],
 
-            "frame_inactive": [0, 41, 49],
-            "background_tab_inactive": [0, 41, 49],
-            "tab_background_text_inactive": [255, 224, 138],
+            "frame_inactive": [0, 45, 54],
+            "background_tab_inactive": [0, 45, 54],
+            "tab_background_text_inactive": [234, 255, 251],
 
-            "frame_incognito": [0, 41, 49],
-            "background_tab_incognito": [0, 41, 49],
-            "tab_background_text_incognito": [0, 41, 49],
+            "frame_incognito": [0, 25, 29],
+            "background_tab_incognito": [0, 45, 54],
+            "tab_background_text_incognito": [255, 248, 122],
 
-            "frame_incognito_inactive": [0, 28, 31],
-            "background_tab_incognito_inactive": [0, 28, 31],
-            "tab_background_text_incognito_inactive": [212, 225, 232]
+            "frame_incognito_inactive": [0, 25, 29],
+            "background_tab_incognito_inactive": [0, 25, 29],
+            "tab_background_text_incognito_inactive": [216, 243, 245]
         }
     }
 }

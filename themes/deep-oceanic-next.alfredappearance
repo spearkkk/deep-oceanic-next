@@ -1,62 +1,62 @@
 {
   "alfredtheme" : {
     "result" : {
-      "textSpacing" : 7,
+      "textSpacing" : 16,
       "subtext" : {
-        "size" : 13,
-        "colorSelected" : "#F3B863FF",
+        "size" : 8,
+        "colorSelected" : "#FFF44FFF",
         "font" : "Monaco",
-        "color" : "#D3E1E8B2"
+        "color" : "#D8F3F5FF"
       },
       "shortcut" : {
-        "size" : 20,
-        "colorSelected" : "#FBC959FF",
+        "size" : 16,
+        "colorSelected" : "#FFF44FFF",
         "font" : "Monaco",
-        "color" : "#A7ADBAFF"
+        "color" : "#D8F3F5FF"
       },
-      "backgroundSelected" : "#001C1FFF",
+      "backgroundSelected" : "#00424FFF",
       "text" : {
-        "size" : 20,
-        "colorSelected" : "#F3B863FE",
+        "size" : 14,
+        "colorSelected" : "#FFF87AFF",
         "font" : "Monaco",
-        "color" : "#E0E9EFFF"
+        "color" : "#D8F3F5FF"
       },
-      "iconPaddingHorizontal" : 4,
+      "iconPaddingHorizontal" : 8,
       "roundness" : 0,
-      "paddingVertical" : 5,
-      "iconSize" : 50
+      "paddingVertical" : 4,
+      "iconSize" : 48
     },
     "search" : {
-      "backgroundSelected" : "#003640FF",
+      "backgroundSelected" : "#006170FF",
       "paddingHorizontal" : 4,
       "spacing" : 5,
       "text" : {
-        "size" : 51,
-        "colorSelected" : "#E37551FF",
+        "size" : 16,
+        "colorSelected" : "#FFF44FFF",
         "font" : "Monaco",
-        "color" : "#D3E1E8FF"
+        "color" : "#EAFFFBFF"
       },
-      "background" : "#001C1F00",
+      "background" : "#00191D00",
       "roundness" : 0,
-      "paddingVertical" : 4
+      "paddingVertical" : 8
     },
     "window" : {
-      "color" : "#002830FF",
-      "paddingHorizontal" : 8,
-      "width" : 800,
-      "borderPadding" : 8,
-      "borderColor" : "#002830FF",
+      "color" : "#002D36FF",
+      "paddingHorizontal" : 0,
+      "width" : 512,
+      "borderPadding" : 4,
+      "borderColor" : "#002D36FF",
       "blur" : 20,
       "roundness" : 4,
-      "paddingVertical" : 4
+      "paddingVertical" : 0
     },
     "credit" : "spearkkk",
     "separator" : {
-      "color" : "#2A2F3034",
-      "thickness" : 2
+      "color" : "#002D36FF",
+      "thickness" : 4
     },
     "scrollbar" : {
-      "color" : "#FFCC66FF",
+      "color" : "#00F5FFFF",
       "thickness" : 3
     },
     "name" : "Deep Oceanic Next"
