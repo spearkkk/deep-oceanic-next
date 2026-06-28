@@ -1,5 +1,13 @@
 import "./globals.css";
-import Head from "next/head";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Deep Oceanic Next",
+  description: "Explore the Deep Oceanic Next theme",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
 
 export default function RootLayout({
                                      children,
@@ -8,11 +16,6 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="en">
-      <Head>
-          <title>Deep Oceanic Next</title>
-          <meta name="description" content="Explore the Deep Oceanic Next theme" />
-          <link rel="icon" href="/favicon.ico" />
-      </Head>
       <body className="antialiased">
       {children}
       </body>
